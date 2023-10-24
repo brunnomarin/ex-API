@@ -1,0 +1,45 @@
+{
+	"id": "f5691330-d82a-4080-8bb2-c445d22082e5",
+	"values": [
+		{
+			"key": "dev",
+			"value": "https://swapi.dev/api/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "qa",
+			"value": "https://swapi.qa/api/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "hml",
+			"value": "https://swapi.dev/api/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "prd",
+			"value": "https://swapi.dev/api/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "local",
+			"value": "http://localhost:3000/",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-10-24T18:51:35.926Z",
+	"_postman_exported_using": "Postman/10.19.7"
+}

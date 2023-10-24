@@ -1,0 +1,184 @@
+{
+	"id": "d888216b-b176-40f4-9557-607d395b88ff",
+	"name": "Star Wars API",
+	"timestamp": "2023-10-24T14:35:40.778Z",
+	"collection_id": "30716125-1328f48a-2049-4f98-8e09-cee6c3b1c0b8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 20,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-10-24T14:32:29.185Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "35eee3f4-d65d-4858-b500-b165536c9125",
+			"name": "Listar Personagem 1",
+			"url": "https://swapi.dev/api/people/1/",
+			"time": 2926,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				25726,
+				2394,
+				2647,
+				2599,
+				2456,
+				2451,
+				4123,
+				3251,
+				5500,
+				2926
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "4d87b24f-4261-4495-b569-8fae6c0cb23e",
+			"name": "Listar Personagem 2",
+			"url": "https://swapi.dev/api/people/2/",
+			"time": 2513,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2116,
+				2723,
+				5667,
+				6061,
+				2332,
+				2614,
+				2192,
+				3043,
+				4271,
+				2513
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "a3232d59-9db5-4b00-88d5-da2e2251a771",
+			"name": "{{prd}}people/2",
+			"url": "https://swapi.dev/api/people/2",
+			"time": 5265,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Validar status code": true,
+				"Validar o nome do personagem": true
+			},
+			"testPassFailCounts": {
+				"Validar status code": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Validar o nome do personagem": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3808,
+				6953,
+				3228,
+				46133,
+				2384,
+				2172,
+				9357,
+				2575,
+				3956,
+				5265
+			],
+			"allTests": [
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				},
+				{
+					"Validar status code": true,
+					"Validar o nome do personagem": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 173436,
+	"collection": {
+		"requests": [
+			{
+				"id": "35eee3f4-d65d-4858-b500-b165536c9125",
+				"method": "GET"
+			},
+			{
+				"id": "4d87b24f-4261-4495-b569-8fae6c0cb23e",
+				"method": "GET"
+			},
+			{
+				"id": "a3232d59-9db5-4b00-88d5-da2e2251a771",
+				"method": "GET"
+			}
+		]
+	}
+}
